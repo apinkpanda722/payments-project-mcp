@@ -93,8 +93,8 @@ export function OrderPage() {
       await widgetsRef.current.requestPayment({
         orderId: order.orderId,
         orderName: order.orderName,
-        successUrl: `${window.location.origin}/success`,
-        failUrl: `${window.location.origin}/fail`,
+        successUrl: `${window.location.origin}${import.meta.env.BASE_URL}success`,
+        failUrl: `${window.location.origin}${import.meta.env.BASE_URL}fail`,
         customerName: customerName || undefined,
         customerEmail: customerEmail || undefined,
         customerMobilePhone: customerMobilePhone || undefined,
