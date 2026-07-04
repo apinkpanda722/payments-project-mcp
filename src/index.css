@@ -1,0 +1,84 @@
+:root {
+  --text: #52525b;
+  --text-h: #0f0f14;
+  --bg: #fafafa;
+  --surface: #ffffff;
+  --border: #e4e4e7;
+  --accent: #3b82f6;
+  --accent-2: #6366f1;
+  --accent-contrast: #ffffff;
+  --success: #16a34a;
+  --danger: #dc2626;
+  --shadow:
+    rgba(15, 15, 20, 0.06) 0 1px 2px, rgba(15, 15, 20, 0.08) 0 8px 24px -8px;
+  --shadow-lg:
+    rgba(15, 15, 20, 0.1) 0 2px 4px, rgba(15, 15, 20, 0.12) 0 20px 40px -12px;
+
+  --sans: 'Pretendard Variable', system-ui, 'Segoe UI', Roboto, sans-serif;
+
+  font: 16px/1.55 var(--sans);
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #a1a1aa;
+    --text-h: #f4f4f5;
+    --bg: #0b0b0e;
+    --surface: #16161b;
+    --border: #27272e;
+    --accent: #60a5fa;
+    --accent-2: #818cf8;
+    --accent-contrast: #0b0b0e;
+    --shadow:
+      rgba(0, 0, 0, 0.35) 0 1px 2px, rgba(0, 0, 0, 0.45) 0 8px 24px -8px;
+    --shadow-lg:
+      rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.5) 0 20px 40px -12px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--sans);
+  font-weight: 700;
+  color: var(--text-h);
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+}
+
+input {
+  font: inherit;
+}
