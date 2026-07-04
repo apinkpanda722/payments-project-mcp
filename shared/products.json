@@ -1,0 +1,74 @@
+[
+  {
+    "id": "p1",
+    "name": "에어핏 무선 이어폰",
+    "category": "오디오",
+    "price": 129000,
+    "emoji": "🎧",
+    "gradient": "linear-gradient(135deg, #6366f1, #8b5cf6)",
+    "description": "능동 소음 차단과 24시간 배터리를 갖춘 데일리 이어폰"
+  },
+  {
+    "id": "p2",
+    "name": "미니멀 백팩",
+    "category": "가방",
+    "price": 89000,
+    "emoji": "🎒",
+    "gradient": "linear-gradient(135deg, #f59e0b, #ef4444)",
+    "description": "발수 원단으로 제작한 15인치 노트북 백팩"
+  },
+  {
+    "id": "p3",
+    "name": "스마트 워치 밴드 5",
+    "category": "웨어러블",
+    "price": 249000,
+    "emoji": "⌚",
+    "gradient": "linear-gradient(135deg, #06b6d4, #3b82f6)",
+    "description": "심박·수면 트래킹을 지원하는 올데이 스마트워치"
+  },
+  {
+    "id": "p4",
+    "name": "세라믹 드립 커피 세트",
+    "category": "리빙",
+    "price": 45000,
+    "emoji": "☕",
+    "gradient": "linear-gradient(135deg, #a16207, #d97706)",
+    "description": "핸드드립 입문자를 위한 드리퍼+서버+필터 세트"
+  },
+  {
+    "id": "p5",
+    "name": "울트라라이트 러닝화",
+    "category": "스포츠",
+    "price": 138000,
+    "emoji": "👟",
+    "gradient": "linear-gradient(135deg, #10b981, #059669)",
+    "description": "200g대 초경량 쿠셔닝 러닝화"
+  },
+  {
+    "id": "p6",
+    "name": "감성 무드 조명",
+    "category": "리빙",
+    "price": 39000,
+    "emoji": "💡",
+    "gradient": "linear-gradient(135deg, #ec4899, #f43f5e)",
+    "description": "따뜻한 색온도 조절이 가능한 무선 무드등"
+  },
+  {
+    "id": "p7",
+    "name": "포터블 블루투스 스피커",
+    "category": "오디오",
+    "price": 79000,
+    "emoji": "🔊",
+    "gradient": "linear-gradient(135deg, #0ea5e9, #6366f1)",
+    "description": "방수 IPX7, 12시간 재생이 가능한 미니 스피커"
+  },
+  {
+    "id": "p8",
+    "name": "천연 아로마 캔들",
+    "category": "리빙",
+    "price": 28000,
+    "emoji": "🕯️",
+    "gradient": "linear-gradient(135deg, #f97316, #eab308)",
+    "description": "콩왁스로 만든 저자극 향초, 연소시간 45시간"
+  }
+]
